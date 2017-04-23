@@ -62,7 +62,6 @@ import { HeroService } from './hero.service';
         border-radius: 4px 0 0 4px;
       }
     `],
-    providers: [HeroService],
 })
 export class HeroesComponent implements OnInit {
   selectedHero: Hero;
